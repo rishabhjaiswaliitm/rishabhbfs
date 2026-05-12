@@ -1,7 +1,7 @@
 const quizPages = [
   {
-    pageNumber: 1,
-    title: "Page 1",
+    pageNumber: 3,
+    title: "Page 3",
     questions: [
   {
     topic: "Course Focus",
@@ -548,12 +548,692 @@ const quizPages = [
           "The suggested reading list includes Barth's Travels and Discoveries in North and Central Africa, Cowper's The Hill of the Graces, and Lockard's Societies, Networks, and Transitions."
       }
     ]
+  },
+  {
+    pageNumber: 9,
+    title: "Page 9",
+    questions: [
+      {
+        topic: "Lecture 2 Focus",
+        question: "Where did the world's first cities arise according to Lecture 2?",
+        answers: [
+          "Mesopotamia.",
+          "North Africa.",
+          "Greece.",
+          "China."
+        ],
+        correct: 0,
+        explanation:
+          "Lecture 2 opens by identifying Mesopotamia as the place where the world's first cities arose."
+      },
+      {
+        topic: "Geography And Culture",
+        question: "What did Mesopotamia's devastating storms and floods help produce?",
+        answers: [
+          "Worship of capricious sky gods and the building of ziggurats.",
+          "A rejection of all temple building.",
+          "Stable natural borders between city-states.",
+          "A culture centered on ocean navigation."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture links storms and floods to sky gods and mud-brick temples shaped like mountains."
+      },
+      {
+        topic: "Natural Boundaries",
+        question: "What did Mesopotamia's lack of natural boundaries encourage?",
+        answers: [
+          "Conquest of large territories and the rise of early empires.",
+          "Permanent isolation of every village.",
+          "The disappearance of taxation.",
+          "A ban on long-distance rule."
+        ],
+        correct: 0,
+        explanation:
+          "Without strong natural boundaries, rulers could conquer larger territories, helping produce early empires."
+      },
+      {
+        topic: "Writing And Administration",
+        question: "Why did the first taxation systems require writing?",
+        answers: [
+          "Writing helped coordinate and administer taxation.",
+          "Writing replaced agriculture entirely.",
+          "Writing was used only for poetry.",
+          "Writing prevented empires from forming."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture says early taxation systems required writing to coordinate them."
+      },
+      {
+        topic: "Sargon Of Akkad",
+        question: "How does Lecture 2 describe Sargon of Akkad?",
+        answers: [
+          "Creator of the first empire and prototype of the Near Eastern god-king.",
+          "Inventor of the alphabetic writing system.",
+          "Founder of Egyptian civilization.",
+          "A ruler who rejected conquest."
+        ],
+        correct: 0,
+        explanation:
+          "Sargon is presented as creator of the first such empire and the prototype of the Near Eastern god-king."
+      },
+      {
+        topic: "The Ancient Near East",
+        question: "What does Lecture 2 say the ancient Near East gave rise to?",
+        answers: [
+          "The world's first civilization.",
+          "The first Polynesian navigation routes.",
+          "The Roman Republic.",
+          "The first Mayan city-states."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture defines the ancient Near East as the first place where people built cities."
+      },
+      {
+        topic: "Mesopotamia",
+        question: "What does the word Mesopotamia literally mean?",
+        answers: [
+          "The land between two rivers.",
+          "The kingdom of the sky gods.",
+          "The mountain of storms.",
+          "The empire of mud bricks."
+        ],
+        correct: 0,
+        explanation:
+          "Mesopotamia means the land between two rivers, the Tigris and the Euphrates."
+      },
+      {
+        topic: "Early Landscape",
+        question: "How is Mesopotamia around 3500 B.C. described?",
+        answers: [
+          "A bleak, arid, sun-baked expanse of mud with few trees or vegetation.",
+          "A forested mountain region with many stone quarries.",
+          "A tropical island chain.",
+          "A snowy plateau protected by natural walls."
+        ],
+        correct: 0,
+        explanation:
+          "The page describes Mesopotamia as an arid, featureless expanse of sun-baked mud."
+      }
+    ]
+  },
+  {
+    pageNumber: 10,
+    title: "Page 10",
+    questions: [
+      {
+        topic: "Floods",
+        question: "Why were Mesopotamian floods especially destructive?",
+        answers: [
+          "They often came just before harvest and could cause starvation.",
+          "They always arrived after crops had been safely stored.",
+          "They only affected uninhabited mountain valleys.",
+          "They made taxation unnecessary."
+        ],
+        correct: 0,
+        explanation:
+          "The flood season usually fell just before harvest time, threatening a year of starvation."
+      },
+      {
+        topic: "Mountains",
+        question: "What astonishing sight did a Mesopotamian traveler encounter in the lecture's explanation?",
+        answers: [
+          "Mountains.",
+          "A Roman olive press.",
+          "A Greek temple.",
+          "A sea-going ship."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture imagines an inhabitant traveling farther than others and encountering mountains."
+      },
+      {
+        topic: "Source Of Rivers",
+        question: "Why did mountains become religiously important to Mesopotamians?",
+        answers: [
+          "Rivers, storms, and floods seemed to come from them.",
+          "They contained all Mesopotamian cities.",
+          "They prevented all invasions.",
+          "They provided endless timber."
+        ],
+        correct: 0,
+        explanation:
+          "The rivers that gave irrigation and life, as well as storms and floods, seemed to emanate from the mountains."
+      },
+      {
+        topic: "Sky Gods",
+        question: "Who was An in Mesopotamian religion?",
+        answers: [
+          "The chief sky god.",
+          "The god of olive oil.",
+          "A Sumerian tax collector.",
+          "The king of Akkad."
+        ],
+        correct: 0,
+        explanation:
+          "The page identifies An as the chief deity and a sky god."
+      },
+      {
+        topic: "Enlil",
+        question: "What was Enlil associated with?",
+        answers: [
+          "Wind and storms.",
+          "Alphabetic writing.",
+          "Roman law.",
+          "Ocean trade."
+        ],
+        correct: 0,
+        explanation:
+          "Enlil, the Lord Wind, was the god of storms."
+      },
+      {
+        topic: "Cultural Pessimism",
+        question: "What does cultural pessimism mean in this lecture's Mesopotamian context?",
+        answers: [
+          "A feeling that people lived in a fundamentally hostile world.",
+          "A belief that the world was always predictable and friendly.",
+          "A rejection of all gods.",
+          "A confidence that floods were harmless."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture says many scholars call this outlook cultural pessimism."
+      },
+      {
+        topic: "Internal Boundaries",
+        question: "What was Mesopotamia missing that might have served as natural state borders?",
+        answers: [
+          "Mountain ranges or difficult-to-cross rivers.",
+          "Clay tablets.",
+          "Irrigation canals.",
+          "City temples."
+        ],
+        correct: 0,
+        explanation:
+          "Few internal geographic boundaries helped large empires grow and left borders unstable."
+      }
+    ]
+  },
+  {
+    pageNumber: 11,
+    title: "Page 11",
+    questions: [
+      {
+        topic: "Sumerian Cities",
+        question: "Around when did the first substantial Mesopotamian cities develop?",
+        answers: [
+          "Around 3100 B.C.",
+          "Around 2400 B.C.",
+          "Around A.D. 81.",
+          "After the Industrial Revolution."
+        ],
+        correct: 0,
+        explanation:
+          "The page states that the first substantial cities developed in 3100 B.C."
+      },
+      {
+        topic: "Sumerians",
+        question: "What do we call the earliest urban civilization in Mesopotamia?",
+        answers: [
+          "Sumerian.",
+          "Akkadian.",
+          "Assyrian.",
+          "Chaldean."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture calls this earliest urban civilization Sumerian."
+      },
+      {
+        topic: "Irrigation And Surplus",
+        question: "How did intensive agriculture help make cities possible?",
+        answers: [
+          "It created surplus food.",
+          "It eliminated the need for administration.",
+          "It stopped all flooding.",
+          "It replaced government with temples."
+        ],
+        correct: 0,
+        explanation:
+          "Sumerian irrigation and organized labor made surplus food possible, and surplus made cities possible."
+      },
+      {
+        topic: "Government",
+        question: "What does the lecture note about taxes and government?",
+        answers: [
+          "Taxes come before government.",
+          "Government always comes before taxes.",
+          "Taxes were unknown in Mesopotamia.",
+          "Taxes were collected only in Greece."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture notes that collecting and organizing surpluses led to administration and government, adding that taxes come before government."
+      },
+      {
+        topic: "Natural Resources",
+        question: "Which basic construction materials were scarce in the lower plain region?",
+        answers: [
+          "Wood and stone.",
+          "Mud and reeds.",
+          "Clay and water.",
+          "Sun and soil."
+        ],
+        correct: 0,
+        explanation:
+          "The page says the lower plain lacked many resources, including wood and stone."
+      },
+      {
+        topic: "Reeds",
+        question: "Which use of reeds is mentioned on Page 11?",
+        answers: [
+          "Making baskets, mats, and boats.",
+          "Carving stone monuments.",
+          "Minting coins.",
+          "Writing alphabetic books."
+        ],
+        correct: 0,
+        explanation:
+          "Reeds were used for baskets, mats, boats, and fuel."
+      },
+      {
+        topic: "Mud Brick",
+        question: "What was the basic construction material in ancient Mesopotamia?",
+        answers: [
+          "Mud brick.",
+          "Marble.",
+          "Granite.",
+          "Iron beams."
+        ],
+        correct: 0,
+        explanation:
+          "Mud mixed with reeds or other vegetable matter was shaped into bricks and dried in the sun."
+      },
+      {
+        topic: "Ziggurats",
+        question: "Why did Mesopotamian temples take the form of artificial mountains?",
+        answers: [
+          "The gods were thought to dwell on top of mountains.",
+          "Mountains were easy to quarry in Mesopotamia.",
+          "They were designed as military walls.",
+          "They copied Roman victory arches."
+        ],
+        correct: 0,
+        explanation:
+          "Since gods were thought to dwell on mountains, early monumental temples took the form of artificial mountains called ziggurats."
+      }
+    ]
+  },
+  {
+    pageNumber: 12,
+    title: "Page 12",
+    questions: [
+      {
+        topic: "Anu Ziggurat",
+        question: "How much labor did the Anu ziggurat at Uruk require, according to calculations?",
+        answers: [
+          "Nearly 100,000 person-days.",
+          "About 300 laws.",
+          "Seventeen trilithons.",
+          "Twenty-three conquered countries."
+        ],
+        correct: 0,
+        explanation:
+          "The Anu ziggurat at Uruk is calculated to have required nearly 100,000 person-days of labor."
+      },
+      {
+        topic: "Heaven And Earth",
+        question: "What purpose did ziggurats serve in Mesopotamian religious thinking?",
+        answers: [
+          "Links between gods and humans.",
+          "Storage rooms for Roman oil.",
+          "Fortresses against the sea.",
+          "Libraries for alphabetic books."
+        ],
+        correct: 0,
+        explanation:
+          "They were built in the hope that they would serve as links between gods and humans."
+      },
+      {
+        topic: "Temple Form",
+        question: "How long did ziggurats remain the characteristic form of Near Eastern temples?",
+        answers: [
+          "About 3,000 years.",
+          "Only one generation.",
+          "About 100 days.",
+          "Until 3500 B.C."
+        ],
+        correct: 0,
+        explanation:
+          "Ziggurats became the characteristic temple form for the next 3,000 years of Near Eastern history."
+      },
+      {
+        topic: "Writing Material",
+        question: "What material did Sumerians use for their writing tablets?",
+        answers: [
+          "Flat clay tablets made from mud.",
+          "Sheets of paper.",
+          "Stone lintels.",
+          "Metal plates."
+        ],
+        correct: 0,
+        explanation:
+          "Sumerians fashioned mud into flat clay tablets for writing."
+      },
+      {
+        topic: "Cuneiform",
+        question: "What does cuneiform mean?",
+        answers: [
+          "Wedge writing.",
+          "Mountain writing.",
+          "Sky speech.",
+          "Tax law."
+        ],
+        correct: 0,
+        explanation:
+          "The written language is identified as cuneiform, or wedge writing."
+      },
+      {
+        topic: "Writing's Importance",
+        question: "What power did writing create, according to the lecture?",
+        answers: [
+          "Memories that never faded and knowledge that could reach the future.",
+          "A way to end all taxation.",
+          "A replacement for irrigation.",
+          "A guarantee of friendly gods."
+        ],
+        correct: 0,
+        explanation:
+          "The lecture says writing created memories that never faded and allowed people to speak to future generations."
+      },
+      {
+        topic: "Writing Evolution",
+        question: "How did writing develop after simple pictures?",
+        answers: [
+          "Into symbols for things, abstract concepts, and eventually sounds.",
+          "Directly into printed books.",
+          "Into carved statues only.",
+          "Into a system used only for music."
+        ],
+        correct: 0,
+        explanation:
+          "The page describes writing evolving from pictures to symbols for things, concepts, and sounds."
+      }
+    ]
+  },
+  {
+    pageNumber: 13,
+    title: "Page 13",
+    questions: [
+      {
+        topic: "Cylinder Seals",
+        question: "What did Sumerian record keeping help produce?",
+        answers: [
+          "Cylinder seals.",
+          "Triumphal arches.",
+          "Stonehenge.",
+          "Paper money."
+        ],
+        correct: 0,
+        explanation:
+          "The Sumerian habit of record keeping led to the development of cylinder seals."
+      },
+      {
+        topic: "Document Marks",
+        question: "What were cylinder seals used for?",
+        answers: [
+          "Marking documents, sealing trade shipments, and personalizing documents.",
+          "Directing olive oil into storage containers.",
+          "Building artificial mountains.",
+          "Making crossbows."
+        ],
+        correct: 0,
+        explanation:
+          "Cylinder seals marked documents, sealed trade shipments, and personalized documents."
+      },
+      {
+        topic: "Status Symbols",
+        question: "How did cylinder seals function beyond practical administration?",
+        answers: [
+          "They became status symbols worn around the neck.",
+          "They replaced all temple rituals.",
+          "They served as royal crowns.",
+          "They were used only as farming tools."
+        ],
+        correct: 0,
+        explanation:
+          "Cylinder seals were worn around the neck to demonstrate the wearer's importance."
+      },
+      {
+        topic: "Counting Systems",
+        question: "How many counting systems did the Sumerians develop, according to Page 13?",
+        answers: [
+          "Two.",
+          "One.",
+          "Three hundred.",
+          "Twenty-three."
+        ],
+        correct: 0,
+        explanation:
+          "The page says the Sumerians developed the earliest known counting system, actually two systems."
+      },
+      {
+        topic: "Base Ten",
+        question: "For most purposes, why did Sumerians use a base 10 system?",
+        answers: [
+          "Because humans have 10 fingers.",
+          "Because they had 10 rivers.",
+          "Because they worshiped 10 chief gods.",
+          "Because every city had 10 rulers."
+        ],
+        correct: 0,
+        explanation:
+          "The page connects base 10 to the fact that humans have 10 fingers."
+      },
+      {
+        topic: "Base Six",
+        question: "For what did the Sumerians use a base six system?",
+        answers: [
+          "Time.",
+          "Stone construction.",
+          "Military ranks.",
+          "Trade routes only."
+        ],
+        correct: 0,
+        explanation:
+          "The page says they used a base six system for time, and that this dual system survives today."
+      },
+      {
+        topic: "Pictographic Writing",
+        question: "What does Page 13 say about most early writing systems?",
+        answers: [
+          "They were pictographic, easy to use and read, but less flexible than later alphabetic systems.",
+          "They were fully alphabetic from the start.",
+          "They were impossible to read.",
+          "They were used only for religious poetry."
+        ],
+        correct: 0,
+        explanation:
+          "The caption says most early writing systems were pictographic and less flexible than later alphabetic systems."
+      }
+    ]
+  },
+  {
+    pageNumber: 14,
+    title: "Page 14",
+    questions: [
+      {
+        topic: "Sumerian Cities",
+        question: "Which early Sumerian cities are named on Page 14?",
+        answers: [
+          "Ur, Uruk, and Shuruppak.",
+          "Athens, Sparta, and Thebes.",
+          "Rome, Carthage, and Alexandria.",
+          "Memphis, Thebes, and Giza."
+        ],
+        correct: 0,
+        explanation:
+          "The page names Ur, Uruk, and Shuruppak as early Sumerian cities."
+      },
+      {
+        topic: "Sargon's Conquests",
+        question: "What did Sargon do just after 2400 B.C.?",
+        answers: [
+          "United much of Mesopotamia through military conquest.",
+          "Invented cylinder seals.",
+          "Built the Anu ziggurat at Uruk.",
+          "Created the first alphabetic writing system."
+        ],
+        correct: 0,
+        explanation:
+          "Sargon of Akkad embarked on military conquests and united much of Mesopotamia."
+      },
+      {
+        topic: "Akkadian Empire",
+        question: "How does Page 14 describe the Akkadian Empire's political system?",
+        answers: [
+          "A simple system with a god-like king and everyone else as his slaves.",
+          "A democracy with elected city councils.",
+          "A loose league of equal villages.",
+          "A merchant republic with no ruler."
+        ],
+        correct: 0,
+        explanation:
+          "The page describes the Akkadian Empire as ruled by a god-like king with everyone else simply his slaves."
+      },
+      {
+        topic: "Near Eastern Empires",
+        question: "Which later empires followed the Akkadian pattern?",
+        answers: [
+          "Babylonians, Hittites, Assyrians, and Chaldeans.",
+          "Maya, Moche, Olmecs, and Teotihuacanos.",
+          "Romans, Etruscans, Greeks, and Carthaginians.",
+          "Han, Qin, Shang, and Zhou."
+        ],
+        correct: 0,
+        explanation:
+          "The page lists the Babylonians, Hittites, Assyrians, and Chaldeans as famous Near Eastern empires."
+      },
+      {
+        topic: "Political Pattern",
+        question: "What pattern did those Near Eastern empires continue?",
+        answers: [
+          "Urbanism, absolute rule, and imperialistic expansionism.",
+          "Nomadism, equality, and isolation.",
+          "Oceanic navigation, democracy, and federation.",
+          "Village life without administration."
+        ],
+        correct: 0,
+        explanation:
+          "The page says these empires continued the pattern of urbanism, absolute rule, and imperialistic expansionism."
+      },
+      {
+        topic: "Agriculture",
+        question: "Why did civilization probably arise on the mud plains of Mesopotamia?",
+        answers: [
+          "The plains were highly suitable for agriculture.",
+          "The region had abundant forests and stone.",
+          "The area was protected by high mountains.",
+          "The rivers never flooded."
+        ],
+        correct: 0,
+        explanation:
+          "The page says the mud plains were highly suitable for agriculture, probably explaining why civilization arose there."
+      },
+      {
+        topic: "Mesopotamian Mood",
+        question: "What tone does the lecture associate with Mesopotamian culture?",
+        answers: [
+          "Strongly pessimistic and fatalistic.",
+          "Uniformly optimistic and carefree.",
+          "Completely secular and anti-religious.",
+          "Focused only on comedy and leisure."
+        ],
+        correct: 0,
+        explanation:
+          "The page says Mesopotamian culture had a strongly and consistently pessimistic and fatalistic tone."
+      }
+    ]
+  },
+  {
+    pageNumber: 15,
+    title: "Page 15",
+    questions: [
+      {
+        topic: "Suggested Reading",
+        question: "Which work by Crawford is listed in the suggested reading for Lecture 2?",
+        answers: [
+          "Sumer and the Sumerians.",
+          "The Ancient Near East.",
+          "Daily Life in Ancient Mesopotamia.",
+          "Ancient Near Eastern History and Culture."
+        ],
+        correct: 0,
+        explanation:
+          "The suggested reading includes Crawford, Sumer and the Sumerians."
+      },
+      {
+        topic: "Suggested Reading",
+        question: "Which author is associated with Daily Life in Ancient Mesopotamia?",
+        answers: [
+          "Nemet-Nejat.",
+          "Crawford.",
+          "Kuhrt.",
+          "Pritchard."
+        ],
+        correct: 0,
+        explanation:
+          "The reading list includes Nemet-Nejat, Daily Life in Ancient Mesopotamia."
+      },
+      {
+        topic: "Suggested Reading",
+        question: "Which title is listed for Stiebing?",
+        answers: [
+          "Ancient Near Eastern History and Culture.",
+          "Sumer and the Sumerians.",
+          "The Ancient Near East.",
+          "Daily Life in Ancient Mesopotamia."
+        ],
+        correct: 0,
+        explanation:
+          "The suggested reading includes Stiebing, Ancient Near Eastern History and Culture."
+      },
+      {
+        topic: "Questions To Consider",
+        question: "What question does Lecture 2 ask about physical resources?",
+        answers: [
+          "To what degree available physical resources determine a culture's attitudes and beliefs.",
+          "Whether Mesopotamia had no rivers.",
+          "Why Sargon avoided military conquest.",
+          "Whether ziggurats were Roman olive presses."
+        ],
+        correct: 0,
+        explanation:
+          "One question asks how much available physical resources determine a culture's attitudes and beliefs."
+      },
+      {
+        topic: "Questions To Consider",
+        question: "What question does Lecture 2 ask about writing?",
+        answers: [
+          "Why writing is important and what its primary uses are.",
+          "Why writing should never be used for records.",
+          "Why writing prevented government from forming.",
+          "Why all writing systems were alphabetic."
+        ],
+        correct: 0,
+        explanation:
+          "The second question asks why writing is important and what its primary uses are."
+      }
+    ]
   }
 ];
 
 let questions = quizPages[0].questions;
 
 const state = {
+  lectureNumber: 1,
   pageIndex: 0,
   index: 0,
   score: 0,
@@ -582,11 +1262,45 @@ const themeToggleText = document.querySelector("#themeToggleText");
 const quizCard = document.querySelector(".quiz-card");
 const pageTitleEl = document.querySelector("#pageTitle");
 const pageButtonsEl = document.querySelector("#pageButtons");
+const lectureSelectEl = document.querySelector("#lectureSelect");
+const savedPageKey = "history-mcq-selected-page";
 
 totalQuestionsEl.textContent = questions.length;
 
+function getPageLecture(page) {
+  return page.lectureNumber || (page.pageNumber >= 9 ? 2 : 1);
+}
+
+function getLectureNumbers() {
+  return [...new Set(quizPages.map(getPageLecture))].sort((a, b) => a - b);
+}
+
+function getLecturePageEntries(lectureNumber = state.lectureNumber) {
+  return quizPages
+    .map((page, pageIndex) => ({ page, pageIndex }))
+    .filter(({ page }) => getPageLecture(page) === lectureNumber);
+}
+
 function getActivePage() {
   return quizPages[state.pageIndex];
+}
+
+function saveSelectedPage() {
+  localStorage.setItem(savedPageKey, String(getActivePage().pageNumber));
+}
+
+function loadSavedPage() {
+  const savedPageNumber = Number(localStorage.getItem(savedPageKey));
+  const normalizedPageNumber = savedPageNumber === 1 ? 3 : savedPageNumber;
+  const savedPageIndex = quizPages.findIndex(
+    (page) => page.pageNumber === normalizedPageNumber
+  );
+
+  if (savedPageIndex >= 0) {
+    state.pageIndex = savedPageIndex;
+    state.lectureNumber = getPageLecture(quizPages[savedPageIndex]);
+    questions = quizPages[savedPageIndex].questions;
+  }
 }
 
 function applyTheme(theme) {
@@ -616,7 +1330,7 @@ function shuffleAnswers(question) {
 function renderPageSelector() {
   pageButtonsEl.innerHTML = "";
 
-  quizPages.forEach((page, pageIndex) => {
+  getLecturePageEntries().forEach(({ page, pageIndex }) => {
     const button = document.createElement("button");
     button.className = "page-button";
     button.type = "button";
@@ -625,6 +1339,19 @@ function renderPageSelector() {
     button.addEventListener("click", () => loadPage(pageIndex));
     pageButtonsEl.appendChild(button);
   });
+}
+
+function renderLectureSelector() {
+  lectureSelectEl.innerHTML = "";
+
+  getLectureNumbers().forEach((lectureNumber) => {
+    const option = document.createElement("option");
+    option.value = String(lectureNumber);
+    option.textContent = `Lecture ${lectureNumber}`;
+    lectureSelectEl.appendChild(option);
+  });
+
+  lectureSelectEl.value = String(state.lectureNumber);
 }
 
 function resetQuizState() {
@@ -638,10 +1365,24 @@ function resetQuizState() {
 
 function loadPage(pageIndex) {
   state.pageIndex = pageIndex;
+  state.lectureNumber = getPageLecture(getActivePage());
   questions = getActivePage().questions;
+  saveSelectedPage();
   resetQuizState();
+  renderLectureSelector();
   renderPageSelector();
   renderQuestion();
+}
+
+function loadLecture(lectureNumber) {
+  const firstPageEntry = getLecturePageEntries(lectureNumber)[0];
+
+  if (!firstPageEntry) {
+    return;
+  }
+
+  state.lectureNumber = lectureNumber;
+  loadPage(firstPageEntry.pageIndex);
 }
 
 function renderQuestion() {
@@ -999,7 +1740,12 @@ nextButton.addEventListener("click", moveNext);
 restartButton.addEventListener("click", restartGame);
 exportPdfButton.addEventListener("click", exportPdf);
 themeToggle.addEventListener("click", toggleTheme);
+lectureSelectEl.addEventListener("change", () => {
+  loadLecture(Number(lectureSelectEl.value));
+});
 document.addEventListener("keydown", handleKeyboardShortcut);
 loadTheme();
+loadSavedPage();
+renderLectureSelector();
 renderPageSelector();
 renderQuestion();
